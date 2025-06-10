@@ -11,15 +11,15 @@ Learning reflections are part of your weekly homework and have a weight of 20% o
 
 # Lecture
 
-<!--# Add your reflections on the lecture of this week here -->
+The lecture for this week was an introduction to the class. It was great and I'm very happy with how it went. I've work with R a bit a long time ago. So this was refreshing for remembering most of the things about how R works.
 
 # Homework Assignment
 
-<!--# Add your reflections on the homework programming assignment here -->
+The homework for this week was great. really easy to follow, just going straigth forward. And the analysis of the functions was interesting. Also they were really easy functions to understand.
 
 # Readings
 
-<!--# Add your reflections on the required readings here -->
+The readings were really easy to read. And they clarify most of the beginners issue that an amateur might have. However, the tips are really helpful for everyone, even experts. And the introductions are better if you get to emphatize with the reader.
 
 # Submit learning reflections
 
