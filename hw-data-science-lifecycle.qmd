@@ -16,9 +16,7 @@ This homework assignment is designed as a guided walkthrough of the data science
 
 As you work through each task, carefully read the step-by-step instructions and identify the corresponding elements in the provided code. This format will help you understand how I will describe coding tasks in future exercises, so pay attention to how each step connects to specific parts of the code.
 
-Your main objectives are to:
-- Run each code chunk and ensure it executes without errors
-- Verify that each step produces the expected results  
+Your main objectives are to: - Run each code chunk and ensure it executes without errors - Verify that each step produces the expected results\
 - Understand the connection between the task descriptions and the code implementation
 
 # Task 0: Load R packages
@@ -49,7 +47,7 @@ library(here)
 **Note:** You will learn more about the use of the `here()` function when we look at data import in more detail.
 
 ```{r}
-global_waste_data <- read_csv(here("wk-02/data/country_level_data_0.csv"))
+global_waste_data <- read_csv(here("data/country_level_data_0.csv"))
 ```
 
 # Task 2: Data tidying (and some transformation)
@@ -94,7 +92,7 @@ global_waste_data_small <- global_waste_data |>
 
 4.  Describe in your own words what the `mutate()` function does in this code-chunk
 
-<!--# Remove this comment and write your text here -->
+The fucntion mutate lets you convert some kind of data into a specific kind of data, like a conversion. At the first part the fuction is converting the waste per year to a capita of waste in KG per year per person. the second part of the function mutate is classifying the data sets into 4 levels, HIC been the highest, UMC the second highest, LMC the second lowest and LIC been the lowest.
 
 ```{r}
 global_waste_data_kg_year <- global_waste_data_small |> 
@@ -122,15 +120,15 @@ global_waste_data_kg_year <- global_waste_data_small |>
 
 4.  Look at the plot that you created and describe what the `mutate()` function achieved in the previous task
 
-<!--# Remove this comment and write your text here -->
+In fact, mutate permits to classify and convert data, like doing mathematical operations like sum and dividing. And classifying groups of data like HIC, UMC, LMC and LIC
 
 5.  Describe in your own words what the 'color' argument inside the `aes()` does
 
-<!--# Remove this comment and write your text here -->
+Sets an specific type of color to the different classifications of income_id
 
 6.  Describe in your own words what the `labs()` function does
 
-<!--# Remove this comment and write your text here -->
+it lets you modify the axes labels and put all kind of titles in there.
 
 ```{r}
 ggplot(data = global_waste_data_kg_year,
